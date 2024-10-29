@@ -1,0 +1,89 @@
+/* src/pages/Education.css */
+.education {
+    padding: 50px 20px;
+    background: #e8f5e9; /* Light green */
+    color: #333;
+  }
+  
+  .education-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .education-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #004d40;
+  }
+  
+  .education-header p {
+    font-size: 1.1rem;
+    color: #00796b;
+  }
+  
+  .education-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .education-content p {
+    margin-bottom: 20px;
+  }
+  
+  .consultation-form {
+    margin-top: 50px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .consultation-form h2 {
+    margin-bottom: 20px;
+    color: #004d40;
+  }
+  
+  .consultation-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .consultation-form label {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  
+  .consultation-form input,
+  .consultation-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .consultation-form textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .consultation-form button {
+    background: #004d40;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .consultation-form button:hover {
+    background: #002f2f;
+  }
+  

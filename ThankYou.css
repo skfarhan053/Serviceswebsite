@@ -1,0 +1,34 @@
+/* src/pages/ThankYou.css */
+.thank-you {
+    padding: 50px 20px;
+    background: #c8e6c9; /* Light green */
+    color: #333;
+    text-align: center;
+  }
+  
+  .thank-you h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #004d40;
+  }
+  
+  .thank-you p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    color: #00796b;
+  }
+  
+  .thank-you a {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background: #ff5722; /* Orange accent */
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .thank-you a:hover {
+    background: #e64a19; /* Darker orange */
+  }
+  

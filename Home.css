@@ -1,0 +1,85 @@
+/* src/pages/Home.css */
+.home {
+  padding: 20px;
+  background: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content */
+  overflow-x: hidden; /* Hide horizontal overflow */
+  margin: 0 auto; /* Center the content within the container */
+  max-width: 100vw; /* Ensure the content doesn't exceed viewport width */
+}
+
+/* Hero section styling */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+  background: #004d40; /* Dark teal */
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+  max-width: 100%; /* Ensure it doesn't overflow */
+  overflow: hidden; /* Prevent overflow */
+}
+
+/* Hero title styling */
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Hero description styling */
+.hero-description {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Hero image styling */
+.hero-image {
+  margin-top: 20px;
+}
+
+/* Ensure image scales correctly */
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Services section */
+.services-section {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 100%; /* Ensure it doesn't overflow */
+  overflow: hidden; /* Prevent overflow */
+}
+
+/* Services title styling */
+.services-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Services grid styling */
+.services-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .services-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
